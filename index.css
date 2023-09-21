@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background:linear-gradient(to right,rgba(2,0,36,1), rgba(9,9,121,1), rgba(0,212,255,1));
+}
+                                                             /* NAVIGATION */
+.container .navigation{
+    background-color: rgba(255, 255, 255, 0.216);
+    padding: .5rem;
+}
+
+.container .navigation .nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 20rem;
+}
+
+.container .navigation .nav p a img{
+    border: 1px solid black;
+    border-radius: 10%;
+    width: 4rem;
+    height: 4rem;
+}
+
+.container .navigation .nav p {
+    transition:all .2s ease-in-out;
+}
+.container .navigation .nav p:hover{
+    transform: scale(1.1);
+}
+
+.container .navigation .nav p a{
+    text-decoration: none;
+    font-size: larger;
+    color: black;
+    font-weight: bolder;
+    transition:all .2s ease-in-out;
+}
+.container .navigation .nav p a:hover{
+    transform: scale(.5);
+}
+.container .navigation .nav p #plain{
+    border-bottom: 5px solid black;
+    border-radius: 10%;
+ }
+
+.container .navigation .heading{
+    border-bottom: 2px solid black;
+    border-radius: 10rem;
+    border-radius: .5rem;
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+}
+.container .navigation .heading h2{
+    letter-spacing: .4em;
+}
+ 
+                                                             /* PLAIN COLOR BODY */
+.container .box{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 37rem;
+}
+
+.container .box .innerbox{
+    background-color: rgba(255, 255, 255, 0.216);
+    border-radius: 2rem;
+    width: 10rem;
+    height: 10rem;
+    padding: 2%;
+}
+
+.container .box .innerbox .hexa{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10rem;
+    height: 5rem;
+}
+.container .box .innerbox .hexa p{
+    background-color: rgba(255, 255, 255, 0.455);
+    border: 1px solid black;
+    border-radius: .5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 8rem;
+    height: 2rem;
+}
+
+.container .box .innerbox .button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10rem;
+    height: 5rem;
+}
+.container .box .innerbox .button button{
+    background-color: rgba(255, 255, 255, 0.455);
+    border: 1px solid black;
+    border-radius: .5rem;
+    width: 5rem;
+    height: 2rem;
+    transition: all .2s ease-in-out;
+}
+.container .box .innerbox .button button:hover{
+    cursor: pointer;
+    box-shadow: 2px 2px 2px black;
+    transform: scale(.8);
+}
+                                                            /* GRADIENT COLOR BODY */
+                                
+.container .box2{
+    display: none;
+    justify-content: center;
+    align-items: center;
+    height: 37rem;
+ }
+ 
+ .container .box2 .innerbox2{
+    background-color: rgba(255, 255, 255, 0.216);
+    border-radius: 2rem;
+    width: 25rem;
+    height: 10rem;
+    padding: 2%;
+ }
+.container .box2 .innerbox2 h2{
+    display: flex;
+    justify-content: center;
+    letter-spacing: .4em;
+ }
+ .container .box2 .innerbox2 .input{
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem;
+ } 
+
+                                                                      /* GRADIENT COLOR ANSWER AREA */
+ .container .box2 .innerbox2 .answer-area{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5rem;
+    margin: 1rem;
+ } 
+ 
+                                                            /* FOOTER */
+
+footer .footer{
+    background-color: rgba(255, 255, 255, 0.216);
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
